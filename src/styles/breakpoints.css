@@ -1,0 +1,30 @@
+/* Mobile First Media Queries */
+@layer utilities {
+  /* Small devices (phones) */
+  @screen xs {
+    .container {
+      @apply px-4;
+    }
+  }
+
+  /* Medium devices (tablets) */
+  @screen md {
+    .container {
+      @apply px-6;
+    }
+  }
+
+  /* Large devices (desktops) */
+  @screen lg {
+    .container {
+      @apply px-8;
+    }
+  }
+
+  /* Extra large devices */
+  @screen 2xl {
+    .container {
+      @apply max-w-[1440px] mx-auto;
+    }
+  }
+}
