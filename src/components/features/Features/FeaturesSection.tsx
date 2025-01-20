@@ -1,7 +1,6 @@
 import React from 'react';
 import { Code2, Rocket, Users, Brain, Video, Shield } from 'lucide-react';
 import { FeatureCard } from './FeatureCard';
-import { FaqSection } from './FaqSection';
 
 const features = [
   {
@@ -57,9 +56,6 @@ export const FeaturesSection = () => {
             <FeatureCard key={index} {...feature} />
           ))}
         </div>
-      </div>
-      <div className="mt-12">
-        <FaqSection />
       </div>
     </section>
   );

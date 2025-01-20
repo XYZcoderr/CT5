@@ -34,7 +34,7 @@ export const FaqSection = () => {
   const [activeId, setActiveId] = useState<number | null>(null);
 
   return (
-    <div className="mt-20 mb-12">
+    <div className="mt-20">
       <h2 className="text-3xl font-bold text-center text-white mb-12">
         Frequently Asked Questions
       </h2>
